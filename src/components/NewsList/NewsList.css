@@ -1,0 +1,25 @@
+.main {
+  padding: 15px;
+}
+
+.main__box-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__load-more {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 2px #243d7d;
+  background-color: #416fdc;
+  transition: all 0.2s ease-in-out;
+}
+
+.main__load-more:active {
+  box-shadow: none;
+}
